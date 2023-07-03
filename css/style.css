@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{}
+header{
+    background: #dbeade;
+    padding: 20px;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+   
+}
+.flex{
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    flex: 0 1 auto;
+}
+.logo a{}
+.logo a img{}
+
+nav{
+    width: 80%;
+    flex: 0 1 auto;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li {
+    /* text-decoration: none; */
+    list-style: none;
+}
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+}
+nav ul li a:hover{
+    background:#333;
+    color:#fff;
+}
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+.blog-section{}
+article{}
+article span{
+    text-transform: uppercase;
+    color: #00000069;
+    display: block;
+}
+article h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+article h1 a{
+    color: #000;
+    text-transform: inherit;
+}
+article p{
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+article a{
+    text-transform: uppercase;
+    color: #00000069;
+    text-decoration: none;
+}
+article img{
+    width: 100%;
+}
+.col-1-1{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 30px 50px;
+}
+.col-2-1{
+    width:50%;
+    flex: 0 0 auto;
+    padding: 40px;
+}
+footer{
+    background: #d8c5c5;
+}
+ul.footer-menu{}
+ul.footer-menu li {
+    list-style: none;
+}
+ul.footer-menu li a{
+    display: block;
+    color: cornflowerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+ul.social-link{}
+ul.social-link li{
+    list-style: none;
+}
+ul.social-link li span{
+    display: block;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+ul.social-link li a{
+    display: block;
+    color: cornflowerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
